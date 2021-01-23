@@ -1,0 +1,43 @@
+@-moz-document domain("play.tv3.lt") {
+.site-player-blocker-active {
+    display: none !important;
+}
+
+header>button:first-of-type {
+    display: none !important;
+}
+
+#__next>div:first-of-type>div:nth-child(3)>div>div:nth-child(3) {
+    margin-top: -70px;
+}
+
+#__next>div:first-of-type>div:nth-child(3)>div {
+    background-color: rgb(13, 11, 11);
+}
+
+#__next>div:first-of-type>div:nth-child(3)>div>div:nth-child(3)>div:first-of-type>div>button {
+    background-color: rgb(13, 11, 11);
+}
+
+#__next>div:first-of-type>div:nth-child(3)>div>div:nth-child(3)>div:nth-child(2) {
+    color: white;
+}
+
+.slick-list>.slick-track>div>div>a>div:nth-child(2)>h2 {
+    color: white !important;
+}
+
+.slick-list>.slick-track>div>div>a>div:nth-child(2)>h3 {
+    color: white !important;
+}
+
+h4 {
+    color: white !important;
+}
+
+div[tabindex="0"] {
+    color: white !important;
+    background-color: rgb(13, 11, 11);
+}
+
+}
